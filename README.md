@@ -10,11 +10,11 @@ Stay exited for my game it will be fun:
 - Basic combat system
 - Loot stored in JSON
 - usebale loot
+- Many enemies
 
 # PLANNED FEATURES
 - Save / Load game (JSON)
 - proper Inventory system
-- More enemies
 - Story locations
 
 
