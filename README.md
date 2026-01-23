@@ -9,9 +9,9 @@ Stay exited for my game it will be fun:
 - Player and enemy classes
 - Basic combat system
 - Loot stored in JSON
-- usebale loot
+- useable loot
 - Many enemies
-
+- abilities
 # PLANNED FEATURES
 - Save / Load game (JSON)
 - proper Inventory system
