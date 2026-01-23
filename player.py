@@ -2,18 +2,18 @@
 import random
 import json
 
-
 class Player:
-    def __init__(self, name, health, inventory=None):
+    def __init__(self, name="Aku", health=60, inventory=None):
         self.name = name
         self.health = health
         self.inventory = inventory if inventory else []
 
     def deal_damage(self):
-        return random.randint(1, 10)
+        return random.randint(4, 10)
         
     def take_damage(self, damage):
         self.health -= damage
+        return damage
         
     def info(self):
         return f"Name: {self.name} \nHP: {self.health}"
@@ -45,5 +45,9 @@ class Player:
         removed.remove(x)
         with open("loot.json", "w") as f:
             json.dump(removed, f, indent=4)
+
+human = Player()
+
+
 
         
