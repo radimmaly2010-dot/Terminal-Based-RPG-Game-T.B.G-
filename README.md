@@ -1,9 +1,8 @@
 # Terminal-Based-RPG-Game-T.B.G-
 Terminal based RPG Game
+mainly to improve my skills in coding
 
-STILL WORKING ON IT
-
-Stay exited for my game it will be fun:
+Stay excited for it ✨
 
 #CURRENT FEATURES
 - Player and enemy classes
